@@ -1,0 +1,11 @@
+ann_model.keras
+knn_grid.pkl
+knn_random.pkl
+kodlanmis.pkl
+lineer_model.pkl
+random_forest_grid.pkl
+random_forest_random.pkl
+scaler.pkl
+tree_grid.pkl
+tree_random.pkl
+xgb_grid.pkl

@@ -1,0 +1,8 @@
+Renault - 1. sayfada hata: 
+Chevrolet - 15. sayfada hata: 
+Skoda - 39. sayfada hata: 
+Toplam 50888 araba linki kaydedildi.
+İşlem tamamlandı. Yaklaşık olarak geçen süre: 10.0 dakika.
+
+İşlem tamamlandı. Geçen süre: 206.0 dakika.
+Toplam başarılı çekilen ilan sayısı: 50755

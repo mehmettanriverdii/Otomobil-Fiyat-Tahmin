@@ -1,0 +1,1 @@
+from .araba_ozellik_cekici import ArabaOzellikleriTopla

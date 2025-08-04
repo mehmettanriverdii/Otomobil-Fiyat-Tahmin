@@ -1,0 +1,1 @@
+from .marka_link_cekici import MarkaLinkCekici 
