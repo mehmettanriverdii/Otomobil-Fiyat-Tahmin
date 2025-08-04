@@ -11,7 +11,9 @@ Bu proje, lisans tezim kapsamında gerçekleştirilmiş olup, `arabam.com` 2. el
 
 - [⬇️ En son sürüm indir](https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin/archive/refs/heads/master.zip)
 
-- [📄 Tez Raporunu Görüntüle](https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin/raw/master/Makine_Öğrenmesi_Lisans_Tezi_Mehmet_Tanrıverdi.pdf)
+- [📄 Tezi Görüntüle](Makine_Öğrenmesi_Lisans_Tezi_Mehmet_Tanrıverdi.pdf)
+
+- [⬇️ Lisans Tezi İndir](https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin/raw/master/Makine_Öğrenmesi_Lisans_Tezi_Mehmet_Tanrıverdi.pdf)
 
 - Depoyu klonla: `git clone https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin.git`
 
