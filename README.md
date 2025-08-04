@@ -9,9 +9,9 @@ Bu proje, lisans tezim kapsamında gerçekleştirilmiş olup, `arabam.com` 2. el
 
 ## Hızlı Başlangıç
 
-- [En son sürüm indir](https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin.zip)
+- [⬇️ En son sürüm indir](https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin/archive/refs/heads/master.zip)
 
-- [Lisans tezi pdf](https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin/Makine_Öğrenmesi_Lisans_Tezi.pdf)
+- [📄 Tez Raporunu Görüntüle](https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin/raw/main/Makine_Öğrenmesi_Lisans_Tezi_Mehmet_Tanrıverdi.pdf)
 
 - Depoyu klonla: `git clone https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin.git`
 
@@ -40,7 +40,8 @@ Satıcılar otomobil fiyatlarını belirlerken motor gücü, motor hacmi, otomob
 
 <br>
 
-- [Veri seti indir](https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin/araba_bilgileri.csv)
+- [📥 Veri Setini İndir (Raw)](https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin/raw/main/araba_bilgileri.csv)
+
 
 ## Uygulama
 
@@ -58,7 +59,8 @@ Bu projede 6 farklı makine öğrenmesi modeli uygulanmış, her model için Gri
 
 - **En Başrılı Sonuç**: XGBoost RandomSearchCV
 
-- [Model indir](https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin/xgb_random.pkl)
+- [📥 Modeli İndir](https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin/raw/main/xgb_random.pkl)
+
 
 ### Örnek Bir Otomobil Fiyat Tahmini
 
