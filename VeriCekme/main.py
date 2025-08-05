@@ -23,7 +23,7 @@ url = "https://www.arabam.com/ikinci-el/otomobil"
 # baglanti = mysql.connector.connect(
 #     host="localhost",
 #     user="root",
-#     password="Mehmet123.",
+#     password="**********",
 #     database="araba_db"
 # )
 # sorgu = "SELECT * FROM araba_bilgileri"

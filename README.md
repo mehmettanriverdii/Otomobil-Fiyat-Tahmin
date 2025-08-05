@@ -42,6 +42,8 @@ Satıcılar otomobil fiyatlarını belirlerken motor gücü, motor hacmi, otomob
 
 <br>
 
+Veri seti akademik çalışmalar için toplanmıştır ticari amaç hedeflenmemiştir.
+
 - [📥 CSV Dosyasını İndir](https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin/releases/latest/download/araba_bilgileri.csv)
 
 
