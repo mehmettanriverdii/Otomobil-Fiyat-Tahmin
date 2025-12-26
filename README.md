@@ -23,22 +23,23 @@ Bu proje, lisans tezim kapsamında gerçekleştirilmiş olup, `arabam.com` 2. el
 Satıcılar otomobil fiyatlarını belirlerken motor gücü, motor hacmi, otomobilin yaşı, otomobilin kaç km yaptığı, değişen-boyalı parça sayısı ve diğer parametreler gibi birkaç faktöre bağlı olarak otomobil fiyatlarını belirlediklerini görürüz. Bir satıcı otomobili ilana koyarken ortalama kaç para ettiğini bilmek isteyebilir ya da tam tersi olarak bir müşteri satın alacağı otomobilin ortalama fiyatını öğrenmek isteyebilir. Bu çalışma, geçmiş ikinci el ilan verilerinden yola çıkarak otomobil özellikleri ile fiyat arasında istatistiksel bir ilişki kurmayı ve bu ilişki üzerinden fiyat tahmin modelleri geliştirmeyi hedeflemektedir. Böylece hem alıcılar hem de satıcılar için karar destek sağlayan bir sistem oluşturulması amaçlanmaktadır.
 
 * Veri seti içerisinde bulunan sütunların isimleri ve açıklamaları:
-  1. id - Her otomobil için benzersiz numara
-  2. marka - Otomobilin markası
-  3. seri - Otomobilin serisi veya alt modeli
-  4. model - Otomobilin model tipi
-  5. yil - Otomobilin üretim yılı
-  6. kilometre - Otomobilin o zamana kadar yaptığı toplam yol (km cinsinden)
-  7. vites_tipi - Otomobilin vites türü (örneğin: Otomatik, Manuel, Yarı Otomatik)
-  8. yakit_tipi - Otomobilin yakıt türü (örneğin: Benzin, Dizel, Hibrit, LPG&Benzin, Elektrik)
-  9. kasa_tipi - Otomobilin gövde tipi (örneğin: Sedan, Hatchback)
-  10. renk - Otomobilin dış rengi
-  11. motor_hacmi - Otomobilin motor hacminin ortalaması (cm3)
-  12. motor_gucu - Otomobilin motor gücünün ortalaması (hp)
-  13. degisen_sayisi - Otomobilde kaç adet değişen parça olduğunun sayısı
-  14. boyali_sayisi - Otomobilde kaç adet boyalı parça olduğunun saysısı 
-  15. kimden - İlan sahibinin türü (örneğin: Sahibinden, Galeriden)
-  16. fiyat - Otomobilin satış fiyatı (TL cinsinden)
+
+1. **id** – Her otomobil için benzersiz numara  
+2. **marka** – Otomobilin markası  
+3. **seri** – Otomobilin serisi veya alt modeli  
+4. **model** – Otomobilin model tipi  
+5. **yil** – Otomobilin üretim yılı  
+6. **kilometre** – Otomobilin o zamana kadar yaptığı toplam yol (km)  
+7. **vites_tipi** – Otomobilin vites türü (Otomatik, Düz, Yarı Otomatik)  
+8. **yakit_tipi** – Otomobilin yakıt türü (Benzin, Dizel, Hibrit, LPG&Benzin, Elektrik)  
+9. **kasa_tipi** – Otomobilin gövde tipi (Sedan, Hatchback)  
+10. **renk** – Otomobilin dış rengi  
+11. **motor_hacmi** – Otomobilin motor hacmi (cm³)  
+12. **motor_gucu** – Otomobilin motor gücü (hp)  
+13. **degisen_sayisi** – Değişen parça sayısı  
+14. **boyali_sayisi** – Boyalı parça sayısı  
+15. **kimden** – İlan sahibinin türü (Sahibinden, Galeriden)  
+16. **fiyat** – Otomobilin satış fiyatı (TL)
 
 <br>
 
