@@ -3,7 +3,7 @@
 
 <h1 align="center">OTOMOBİL FİYAT TAHMİN UYGULAMASI</h1> 
 
-Bu proje, lisans tezim kapsamında gerçekleştirilmiş olup, `arabam.com` 2. el otomobil ilan sitesinden **asenkron programlama** kullanılarak yaklaşık **50.000 ilan verisi** toplanmıştır. Elde edilen veriler detaylı veri ön işleme adımlarından geçirilmiş ve analiz için uygun hale getirilmiştir. Ardından **keşifsel veri analizi (EDA)** gerçekleştirilmiş ve veriler üzerine çeşitli görselleştirmeler uygulanmıştır. Son olarak, geliştirilmiş model, **6 farklı makine öğrenmesi modeli** ile test edilmiştir. Projenin sonunda ise kullanıcıların fiyat tahmini yapabilmesi için **interaktif bir arayüz** geliştirilmiştir ve örnek bir tahmin uygulanmıştır. 
+Bu proje, lisans tezim kapsamında gerçekleştirilmiş olup `arabam.com` ikinci el otomobil ilan sitesinden **asenkron programlama** kullanılarak yaklaşık **50 bin veri** toplanmıştır. Elde edilen veriler detaylı veri ön işleme adımlarından geçirilerek analiz için uygun hale getirilmiştir. Ardından **keşifsel veri analizi (EDA)** gerçekleştirilmiş ve veriler üzerine çeşitli görselleştirmeler uygulanmıştır. Son olarak **6 farklı makine öğrenmesi algoritması** test edilmiştir. Projenin sonunda ise kullanıcıların fiyat tahmini yapabilmesi için **interaktif bir arayüz** geliştirilmiş ve örnek bir tahmin gerçekleştirilmiştir. 
 
 ---
 
@@ -17,10 +17,9 @@ Bu proje, lisans tezim kapsamında gerçekleştirilmiş olup, `arabam.com` 2. el
 
 - Depoyu klonla: `git clone https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin.git`
 
-
 ## Veri Seti
 
-Satıcılar otomobil fiyatlarını belirlerken motor gücü, motor hacmi, otomobilin yaşı, otomobilin kaç km yaptığı, değişen-boyalı parça sayısı ve diğer parametreler gibi birkaç faktöre bağlı olarak otomobil fiyatlarını belirlediklerini görürüz. Bir satıcı otomobili ilana koyarken ortalama kaç para ettiğini bilmek isteyebilir ya da tam tersi olarak bir müşteri satın alacağı otomobilin ortalama fiyatını öğrenmek isteyebilir. Bu çalışma, geçmiş ikinci el ilan verilerinden yola çıkarak otomobil özellikleri ile fiyat arasında istatistiksel bir ilişki kurmayı ve bu ilişki üzerinden fiyat tahmin modelleri geliştirmeyi hedeflemektedir. Böylece hem alıcılar hem de satıcılar için karar destek sağlayan bir sistem oluşturulması amaçlanmaktadır.
+Satıcılar otomobil fiyatlarını belirlerken motor gücü, motor hacmi, otomobilin yaşı, kilometre bilgisi, değişen-boyalı parça sayısı ve benzeri birkaç faktörü göz önünde bulundurduğu görülmektedir. Bir satıcı, ilana koyacağı otomobilin ortalama ne kadar piyasa değerine sahip olduğunu bilmek isteyebilir; öte yandan bir müşteri satın alacağı otomobilin ortalama fiyatını öğrenmek isteyebilir. Bu çalışma, geçmiş ikinci el ilan verilerinden yola çıkarak otomobil özellikleri ile fiyat arasında istatistiksel bir ilişki kurmayı ve bu ilişki üzerinden fiyat tahmin modelleri geliştirmeyi hedeflemektedir. Böylece hem alıcılar hem de satıcılar için karar destek sağlayan bir sistem oluşturulması amaçlanmaktadır.
 
 * Veri seti içerisinde bulunan sütunların isimleri ve açıklamaları:
 
@@ -43,16 +42,15 @@ Satıcılar otomobil fiyatlarını belirlerken motor gücü, motor hacmi, otomob
 
 <br>
 
-Veri seti akademik çalışmalar için toplanmıştır ticari amaç hedeflenmemiştir.
+**Veri seti akademik çalışmalar için toplanmıştır; ticari amaç hedeflenmemiştir.**
 
 - [📥 CSV Dosyasını İndir](https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin/releases/latest/download/araba_bilgileri.csv)
 
-
 ## Uygulama
 
-Bu projede 6 farklı makine öğrenmesi modeli uygulanmış, her model için Grid Search ve Random Search yöntemleriyle hiperparametre optimizasyonu gerçekleştirilmiştir. Modellerin performansları, **determinasyon katsayısı (R²)** ve çeşitli hata metrikleri ile karşılaştırılmıştır. Elde edilen sonuçlara göre en başarılı model, uygulamada kullanılmak üzere kaydedilmiştir.
+Bu projede 6 farklı makine öğrenmesi algoritması uygulanmış, her model için Grid Search ve Random Search yöntemleriyle hiperparametre optimizasyonu gerçekleştirilmiştir. Modellerin performansları **determinasyon katsayısı (R²)** ve çeşitli hata metrikleri ile karşılaştırılmıştır. Elde edilen sonuçlara göre en başarılı model, uygulamada kullanılmak üzere kaydedilmiştir.
 
-- **Modeller**: KNN, Decision Tree, Random Forest, XGBoost, Lineer Regresyon, ANN
+- **Modeller**: KNN, Decision Tree, Random Forest, XGBoost, Linear Regression, ANN
 
 - **Hata Metrikleri**: MAE, MSE, RMSE 
 
@@ -62,20 +60,15 @@ Bu projede 6 farklı makine öğrenmesi modeli uygulanmış, her model için Gri
 
 <br>
 
-- **En Başrılı Sonuç**: XGBoost RandomSearchCV
+- **En Başarılı Sonuç**: XGBoost RandomSearchCV
 
 - [📥 Modeli İndir](https://github.com/mehmettanriverdii/Otomobil-Fiyat-Tahmin/raw/master/xgb_random.pkl)
-
 
 ### Örnek Bir Otomobil Fiyat Tahmini
 
 <img src="images/ornek_otomobil.png">
 
-
-
 <br>
-
-
 
 <img src="images/arayuz_1.png">
 <img src="images/arayuz_2.png">
@@ -85,6 +78,3 @@ Bu projede 6 farklı makine öğrenmesi modeli uygulanmış, her model için Gri
 <br>
 
 <img src="images/arayuz_5.png">
-
-
-
